@@ -7,3 +7,4 @@ so I thought it'd be cool if I shared what were doing project wise.
 I upload the project files, and if I have a version I made and a "corrected" version (what the teacher wants) then I upload both.
 
 ### pain
+as of 8/31/22 we are only doing Visual Basic, but we'll move to Python, Javascript, HTML, and CSS.
