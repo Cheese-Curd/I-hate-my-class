@@ -2,6 +2,8 @@ Public Class Form1
     ' what do you mean "that's not how I want you to do it" ._.
     ' Oh, can I please keep it the neat way I have it :c
     ' Update: I could not
+    
+    ' btw this is the Combo folder, just the way I would write it.
     Private Sub MathBtn_Click(sender As Object, e As EventArgs) Handles MathBtn.Click
         ' Variables
         ' Set both the numbers to string just in case they aren't Ints, and since VB is weird it might scream at me
