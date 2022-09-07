@@ -1,14 +1,26 @@
 ﻿Public Class Form1
     Private Sub MathBtn_Click(sender As Object, e As EventArgs) Handles MathBtn.Click
+        ' 9/7/22 - "Learned how to do comments and if statements" bruh
+
         ' Variables, this still hurts
         Dim nmbr1 As Integer
         Dim nmbr2 As Integer
-        Dim answer As Double ' yes, I know it's unused be quiet
+        Dim answer As Double ' this is an unneeded variable! why do you teach like this!
         nmbr1 = Number1.Text ' painfully setting variables, why do you teach like this.
         nmbr2 = Number2.Text
 
-        ' Now I have to wait for everyone to do the variables, then do a dumb way of making an if statement. Smh
+        ' Everthing passed this line (in the function) is from 9/7/22
 
+        If MathType.Text = "+" Then
+            answer = nmbr1 + nmbr2
+        ElseIf MathType.Text = "-" Then
+            answer = nmbr1 - nmbr2
+        ElseIf MathType.Text = "*" Then
+            answer = nmbr1 * nmbr2
+        ElseIf MathType.Text = "÷" Then
+            answer = nmbr1 / nmbr2
+        End If
 
+        OutputLabel.Text = answer '
     End Sub
 End Class
