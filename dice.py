@@ -25,7 +25,7 @@ totalSums = []
 rolls = []  # All of the rolls made
 rollMade = []
 
-for i in range(100):  # Loop 100 times
+for i in range(100):  # Loop 100 times (she was telling us to use a while loop, I think I am one of the few people that used for loops :) )
   # Make 2 fake rolls
   rollMade = [random.randint(2, 12)]
 
