@@ -20,15 +20,14 @@ nine = 0
 ten = 0
 eleven = 0
 twelve = 0
-totalSums = []
 
 rolls = []  # All of the rolls made
 rollMade = []
 
-for i in range(100):  # Loop 100 times (she was telling us to use a while loop, I think I am one of the few people that used for loops :) )
+for i in range(1000):  # Loop 1000 times
   # Make 2 fake rolls
   rollMade = [random.randint(2, 12)]
-
+  # rollmade = [random.randint(1, 6) + random.randint(1, 6)]
   rolls += rollMade
 
   # this hurts
@@ -57,7 +56,7 @@ for i in range(100):  # Loop 100 times (she was telling us to use a while loop, 
 
   rollMade = []
 print("All of the rolls you made are", rolls, "\n")
-totalSums = [two, three, four, five, six, seven, eight, nine, ten, eleven, twelve]
-print(totalSums)
+# teacher didn't tell use to use f strings they told us to do what was above
+print(f"Two's: {two}\nThree's: {three}\nFour's: {four}\nFive's: {five}\nSix's: {six}\nSeven's: {seven}\nEight's: {eight}\nNine's: {nine}\nTen's: {ten}\nEleven's: {eleven}\nTwelves's: {twelve}")
 
 # WHAT THE HELL IS THIS
