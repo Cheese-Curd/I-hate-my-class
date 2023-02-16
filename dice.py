@@ -24,6 +24,9 @@ twelve = 0
 rolls = []  # All of the rolls made
 rollMade = []
 
+# The whole reason this is a thing we are doing is to showcase how number distribution works.
+# She told us to do two different ways 100x then 1000x ((1, 6) + (1, 6) and (2, 12))
+# bruh
 for i in range(1000):  # Loop 1000 times
   # Make 2 fake rolls
   rollMade = [random.randint(2, 12)]
